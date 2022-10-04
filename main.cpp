@@ -16,6 +16,10 @@ class Duck {
   void go(){
     std::cout << "I'm going somewhere...\n";
   }
+  
+  void fly(){
+    std::cout << "I belive, I can fly!";
+  }
 
   void how_old_are_you(){
     std::cout << "I'm " << age << " years old.\n";
