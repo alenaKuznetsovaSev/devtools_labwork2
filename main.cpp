@@ -11,7 +11,10 @@ class Duck {
   }
 
   void swim(){
-    std::cout << "I'm swimming!! Yachuuu!";
+    std::cout << "I'm swimming!! Yachuuu!\n";
+  }
+  void go(){
+    std::cout << "I'm going somewhere...\n";
   }
 };
 
