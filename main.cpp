@@ -13,6 +13,10 @@ class Duck {
   void swim(){
     std::cout << "I'm swimming!! Yachuuu!";
   }
+  
+  void fly(){
+    std::cout << "I belive, I can fly!";
+  }
 
   void how_old_are_you(){
     std::cout << "I'm " << age << " years old.\n";
