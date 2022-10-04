@@ -16,12 +16,17 @@ class Duck {
   void go(){
     std::cout << "I'm going somewhere...\n";
   }
+
+  void how_old_are_you(){
+    std::cout << "I'm " << age << " years old.\n";
+  }
 };
 
 int main() {
   Duck my_duck;
 
   my_duck.say_name();
+  my_duck.how_old_are_you();
 
   my_duck.my_name = "John";
   my_duck.say_name();
